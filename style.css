@@ -18,7 +18,7 @@ h1{
 }
 
 #container{ 
-    margin-top: 50px;
+    margin-top: 10%;
     display: flex;
     color: white;
     justify-content: space-around;
@@ -69,6 +69,7 @@ h1{
     width: 110px;
     border-radius: 4px;
     color: white;
+    font-size: large;
 }
 
 #two p{ 
@@ -83,6 +84,8 @@ h1{
     width: 110px;
     border-radius: 4px;
     color: white;
+    font-size: large;
+
 }
 
 #second_row{ 
@@ -109,11 +112,9 @@ h1{
     width: 110px;
     border-radius: 4px;
     color: white;
+    font-size: large;
 }
 
-#pic img{ 
-    /* display: none; */
-}
 
 button{ 
     background-color: transparent;
@@ -131,3 +132,25 @@ button:hover{
     border: none;
     background-color: white;
 }
+
+#pic{ 
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+
+footer{ 
+    color: black;
+    display: flex;
+    text-align: center; /* Center the text */
+    padding: 20px; /* Add some padding */
+    margin-top: auto;
+}
+
+footer a{ 
+    text-decoration: none;
+    color: blueviolet;
+    font-weight: bolder;
+}
+
