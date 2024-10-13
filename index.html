@@ -1,0 +1,94 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+    <div>
+        <h1>MY VIRTUAL PET</h1>
+    </div>
+    <div id="container">
+        <div id="left">
+            <div id="first_row">
+                <div id="one">
+                    <p>What is your pet name:</p>
+                    <input type="text" id="pet_name">
+                </div>
+                <div id="two">
+                    <p>Select Type of your pet:</p>
+                    <select name="type" id="pet_type">
+                        <option value="-">select</option>
+                        <option value="Cat">Cat</option>
+                        <option value="Dog">Dog</option>
+                        <option value="Rabbit">Rabbit</option>
+                    </select>
+                </div>
+            </div>
+            <div id="second_row">
+                    <div>
+                        <p>How old is your pet:</p>
+                        <select name="" id="pet_age">
+                            <option value="0">Select</option>
+                            <option value="1">1 Year</option>
+                            <option value="2">2 Years</option>
+                            <option value="3">3 Years</option>
+                            <option value="4">4 Years</option>
+                            <option value="5">5 Years</option>
+                            <option value="6">6 Years</option>
+                            <option value="7">7 Years</option>
+                            <option value="8">8 Years</option>
+                            <option value="9">9 Years</option>
+                            <option value="10">10 Years</option>
+                        </select>
+                    </div>
+                    <div>
+                        <p>How Happy is your pet:</p>
+                        <select name="" id="pet_happy">
+                            <option value="0">Select</option>
+                            <option value="10">10</option>
+                            <option value="20">20</option>
+                            <option value="30">30</option>
+                            <option value="40">40</option>
+                            <option value="50">50</option>
+                            <option value="60">60</option>
+                            <option value="70">70</option>
+                            <option value="80">80</option>
+                            <option value="90">90</option>
+                            <option value="100">100</option>
+                        </select>
+                    </div>
+                    <div>
+                        <p>How Hungry is your pet:</p>
+                        <select name="" id="pet_hungry">
+                            <option value="0">Select</option>
+                            <option value="10">10</option>
+                            <option value="20">20</option>
+                            <option value="30">30</option>
+                            <option value="40">40</option>
+                            <option value="50">50</option>
+                            <option value="60">60</option>
+                            <option value="70">70</option>
+                            <option value="80">80</option>
+                            <option value="90">90</option>
+                            <option value="100">100</option>
+                        </select>
+                    </div>
+                </div>
+                <button onclick="get_value()">Submit</button>
+            </div>
+
+        <div id="pic">
+            <img id="image" src="./icons8-pet-100.png" alt="">
+        </div>
+
+
+    </div>
+    <script src="./script.js"></script>
+</body>
+
+</html>
