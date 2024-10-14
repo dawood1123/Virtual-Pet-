@@ -67,7 +67,7 @@ function get_value(){
             document.getElementById("image").src = "icons8-pet-100.png"
         }
     
-        
+        image.style.display = "flex"; 
         var feedButton = document.createElement("button");
         feedButton.textContent = "Feed";
         // Assign the feed function to the onclick event of the button
@@ -108,5 +108,7 @@ function get_value(){
         div_content.appendChild(feedButton);
         div_content.appendChild(playButton);
         div_content.appendChild(agePetButton);
+
+
     }
 };
