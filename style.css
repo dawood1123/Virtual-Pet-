@@ -260,12 +260,6 @@ footer a{
         align-items: center;
         font-size: medium;
     }
-
-    #pic div{ 
-        display: flex;
-        justify-content: center;
-        align-items: center;
-    }
     
 }
 
@@ -278,4 +272,11 @@ footer a{
     #pic img{ 
         display: none;
     }
+}
+
+#pic div{ 
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
 }

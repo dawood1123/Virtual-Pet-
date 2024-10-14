@@ -13,13 +13,13 @@ function get_value(){
     
 
     var age = document.getElementById('pet_age'); 
-    var pet_age = age.value; 
-
+    var pet_age = parseInt(age.value); // Convert to a number
+    
     var happiness = document.getElementById('pet_happy'); 
-    var pet_happy = happiness.value; 
-
+    var pet_happy = parseInt(happiness.value); // Convert to a number
+    
     var hunger = document.getElementById('pet_hungry'); 
-    var pet_hungry = hunger.value; 
+    var pet_hungry = parseInt(hunger.value);
 
     if((pet_name.trim === "") || (pet_types === "-") || (pet_age=== "0") ||(pet_happy=== "0") ||(pet_hungry=== "0") )
     {
