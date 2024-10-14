@@ -154,6 +154,97 @@ footer a{
     font-weight: bolder;
 }
 
-@media(ma){ 
+@media(max-width: 1200px){ 
     
+    #one p , #two p{ 
+        font-size: medium;
+    }
+
+    #second_row div p { 
+        font-size: medium;
+    }
+
+    #second_row div{ 
+        margin-right: 10px;
+    }
+
+}
+
+@media(max-width: 1120px){
+    
+    html, body{ 
+        font-family: Arial, Helvetica, sans-serif;
+        /* margin: 0; */
+        width: 100%;
+        height: 100%;
+        display: flex;
+        justify-content: center;
+        /* align-items: center; */
+        flex-direction: column;
+    }
+
+    #container{ 
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        flex-direction: column;
+        margin-top: 0;
+        height: 80%;
+        
+    }
+
+    #left{ 
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        flex-direction: column;
+        width: 100%;
+    }
+
+    #first_row, #second_row{ 
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        flex-direction: column;
+    }
+
+    #second_row div{ 
+        margin: 0; 
+        margin-bottom: 10px;
+    }
+
+    h1{ 
+        margin-top: 20px;
+    }
+
+    #one , #two { 
+        width: 85%;
+    }
+}
+
+@media(max-width: 520px){ 
+
+    h1{ 
+        margin-top: 35px;
+    }
+    #second_row select, #first_row select{ 
+        font-size: small;
+    }
+
+    button{ 
+        font-size: small;
+        width: 60px;
+        height: 20px;
+        margin-top: 20px;
+    }
+
+    #image{ 
+        margin-bottom: 0;
+        padding: 0;
+    }
+
+    #pic{ 
+        margin-bottom: 0;
+        padding: 0;
+    }
 }
