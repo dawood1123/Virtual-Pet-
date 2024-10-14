@@ -93,9 +93,16 @@ function get_value(){
     
         div_content.style.display = "flex"; 
         div_content.style.flexDirection = "row"
-        div_content.style.gap = "20px"
+        div_content.style.gap = "40px"
         div_content.style.width = "90%"
+        div_content.style.marginBottom = "30px";
 
+        agePetButton.style.width = "100px";
+        agePetButton.style.height = "30px";
+
+        feedButton.style.height = "30px";
+
+        playButton.style.height = "30px";
     
         // Append the buttons to the div
         div_content.appendChild(feedButton);

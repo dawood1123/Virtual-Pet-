@@ -247,4 +247,35 @@ footer a{
         margin-bottom: 0;
         padding: 0;
     }
+
+
+    
+}
+
+@media (max-width: 620px) {
+
+    #line{ 
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        font-size: medium;
+    }
+
+    #pic div{ 
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+    
+}
+
+
+@media(max-width: 443px){ 
+    #container{ 
+        height: 70%;
+    }
+
+    #pic img{ 
+        display: none;
+    }
 }
