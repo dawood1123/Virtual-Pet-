@@ -21,10 +21,10 @@ function get_value(){
     var hunger = document.getElementById('pet_hungry'); 
     var pet_hungry = parseInt(hunger.value);
 
-    if((pet_name.trim === "") || (pet_types === "-") || (pet_age=== "0") ||(pet_happy=== "0") ||(pet_hungry=== "0") )
-    {
-        alert("Plz Fill all fields")
+    if (pet_name.trim() === "" || pet_types === "-" || pet_age === 0 || pet_happy === 0 || pet_hungry === 0) {
+        alert("Plz Fill all fields");
     }
+    
     else{ 
 
         var line = document.getElementById('line'); 
